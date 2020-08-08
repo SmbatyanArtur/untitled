@@ -22,7 +22,7 @@ public class EchoServerSocket {
 
           while (!serverSocket.isClosed()){
                   socket1 = serverSocket.accept();
-
+//fgfdg
               if (!socketArrayList.contains(socket1)){
                   socketArrayList.add(socket1);
                   a++;
